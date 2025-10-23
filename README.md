@@ -188,7 +188,7 @@ The simulation framework allows testing under various scenarios:
   - Shrinkage: Fastest (~0.5-1 sec per gene set)
   - Ridge: Fast (~0.5-1 sec per gene set)
   - Adaptive Lasso: Moderate (~1-2 sec per gene set)
-  - Graphical Lasso: Slower for large gene sets (~2-5 sec per gene set)
+  - Graphical Lasso: Slower for large gene sets (~4-8 sec per gene set)
 
 - **Memory**: Scales with gene set size; datasets with >5000 genes per set may require substantial RAM
 
