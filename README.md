@@ -196,33 +196,39 @@ The simulation framework allows testing under various scenarios:
 
 | Scenario | Recommended Method | Rationale |
 |----------|-------------------|-----------|
-| Balanced design, high correlation | Shrinkage | Optimal power and speed |
-| Unbalanced design, high correlation | Ridge | Better Type I error control |
-| Low correlation | Shrinkage or Ridge | Both perform well |
-| Small sample size (n<30) | Ridge | Most stable |
-| Large gene sets (>200 genes) | Avoid Glasso | Computational issues |
+| Balanced design | Shrinkage | Optimal power and speed |
+| Unbalanced design | Ridge | Better Type I error control |
+
 
 ## Citation
 
 If you use this code in your research, please cite:
 
 Khademioureh, Sara, et al. "Stability and Performance of Linear Combination Tests of Gene Set Enrichment for Multiple Covariance Estimators in Unbalanced Studies." bioRxiv (2025): 2025-01.
+```
+@article{khademioureh2025stability,
+  title={Stability and Performance of Linear Combination Tests of Gene Set Enrichment for Multiple Covariance Estimators in Unbalanced Studies},
+  author={Khademioureh, Sara and Amini, Payam and Ghasemi, Erfan and Calistrate-Petre, Paul and Pyne, Saumyadipta and Dinu, Irina},
+  journal={bioRxiv},
+  pages={2025--01},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
 
 Original LCT method:
-```
+
 Wang, Xiaoming, et al. "Linear combination test for hierarchical gene set analysis." Statistical Applications in Genetics & Molecular Biology 10.1 (2011).
 ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+@article{wang2011linear,
+  title={Linear combination test for hierarchical gene set analysis.},
+  author={Wang, Xiaoming and Dinu, Irina and Liu, Wei and Yasui, Yutaka},
+  journal={Statistical Applications in Genetics \& Molecular Biology},
+  volume={10},
+  number={1},
+  year={2011}
+}
+```
 ## Issues
 
 Please report any bugs or feature requests through the [GitHub Issues](../../issues) page.
@@ -246,3 +252,4 @@ Project Link: [https://github.com/sara-khademi/lct-gene-set-analysis](https://gi
 ---
 
 **Keywords**: Gene Set Analysis, Linear Combination Test, High-Dimensional Data, Covariance Estimation, Genomics, Bioinformatics, RNA-seq, Microarray
+
