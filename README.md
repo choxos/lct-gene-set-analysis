@@ -1,4 +1,4 @@
-# Linear Combination Test (LCT) for Gene Set Analysis
+# Stability and Performance of Linear Combination Tests of Gene Set Enrichment for Multiple Covariance Estimators in Unbalanced Studies
 
 [![R](https://img.shields.io/badge/R-%3E%3D%204.0-blue)](https://www.r-project.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
