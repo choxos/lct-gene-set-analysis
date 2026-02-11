@@ -117,7 +117,18 @@ LCT.adaptive.lasso <- function(DATA, cl, nbPermutations = 1000, s0 = 0.5,
     Cov.Pooled <- a
 
     EIGEN.decom <- eigen(Cov.Pooled)
-    D <- EIGEN.decom$values + s0
+    D_raw <- EIGEN.decom$values
+
+    # Ensure positive eigenvalues for numerical stability
+    # Adaptive lasso can produce negative eigenvalues
+    min_eig <- min(D_raw)
+    if (min_eig < 0) {
+      # Add enough to make all eigenvalues positive, plus s0
+      D <- D_raw - min_eig + s0
+    } else {
+      D <- D_raw + s0
+    }
+
     U <- EIGEN.decom$vectors
 
     DATA <- t(DATA %*% U) / sqrt(D)

@@ -2,12 +2,10 @@
 % Please edit documentation in R/lctGSA-package.R
 \docType{package}
 \name{lctGSA-package}
-\alias{lctGSA-package}
 \alias{lctGSA}
+\alias{lctGSA-package}
 \title{lctGSA: Linear Combination Test for Gene Set Analysis}
 \description{
-Implements the Linear Combination Test (LCT) for identifying differentially expressed gene sets in high-dimensional gene expression data. Supports multiple covariance matrix estimators including shrinkage (Schäfer & Strimmer, 2005 \doi{10.2202/1544-6115.1175}), ridge regularization (Van Wieringen & Peeters, 2016 \doi{10.18637/jss.v070.i03}), graphical lasso (Friedman et al., 2008 \doi{10.1093/biostatistics/kxm045}), and adaptive lasso (Rothman et al., 2009 \doi{10.1214/08-EJS252}). Designed for robust performance in unbalanced study designs with permutation-based significance testing following the methodology of Wang et al. (2011) \doi{10.2202/1544-6115.1618}.
-
 Implements the Linear Combination Test (LCT) for gene set analysis with
 multiple covariance matrix estimators (shrinkage, ridge, graphical lasso,
 adaptive lasso). Designed for high-dimensional gene expression data with
@@ -81,17 +79,9 @@ Association}, 104(485), 177-186. \doi{10.1198/jasa.2009.0101}
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/SKhademi/lct-gene-set-analysis}
+  \item \url{https://github.com/SKhademi/lctGSA}
   \item \url{https://SKhademi.github.io/lctGSA/}
-  \item Report bugs at \url{https://github.com/SKhademi/lct-gene-set-analysis/issues}
-}
-
-
-Useful links:
-\itemize{
-  \item \url{https://github.com/SKhademi/lct-gene-set-analysis}
-  \item \url{https://SKhademi.github.io/lctGSA/}
-  \item Report bugs at \url{https://github.com/SKhademi/lct-gene-set-analysis/issues}
+  \item Report bugs at \url{https://github.com/SKhademi/lctGSA/issues}
 }
 
 }

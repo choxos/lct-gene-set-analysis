@@ -1,6 +1,3 @@
-#' @keywords internal
-"_PACKAGE"
-
 #' lctGSA: Linear Combination Test for Gene Set Analysis
 #'
 #' @description
@@ -66,7 +63,5 @@
 #' large covariance matrices. \emph{Journal of the American Statistical
 #' Association}, 104(485), 177-186. \doi{10.1198/jasa.2009.0101}
 #'
-#' @docType package
-#' @name lctGSA-package
-#' @aliases lctGSA
-NULL
+#' @keywords internal
+"_PACKAGE"
