@@ -1,0 +1,44 @@
+bibentry(
+  bibtype  = "Article",
+  title    = "Stability and Performance of Linear Combination Tests of Gene Set Enrichment for Multiple Covariance Estimators in Unbalanced Studies",
+  author   = c(
+    person("Sara", "Khademioureh"),
+    person("Payam", "Amini"),
+    person("Erfan", "Ghasemi"),
+    person("Paul", "Calistrate-Petre"),
+    person("Saumyadipta", "Pyne"),
+    person("Irina", "Dinu")
+  ),
+  journal  = "bioRxiv",
+  year     = "2025",
+  doi      = "10.1101/2025.01.23.634558",
+  url      = "https://doi.org/10.1101/2025.01.23.634558",
+  textVersion = paste(
+    "Khademioureh, S., Amini, P., Ghasemi, E., Calistrate-Petre, P., Pyne, S., & Dinu, I. (2025).",
+    "Stability and Performance of Linear Combination Tests of Gene Set Enrichment",
+    "for Multiple Covariance Estimators in Unbalanced Studies.",
+    "bioRxiv. https://doi.org/10.1101/2025.01.23.634558"
+  )
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "Linear combination test for hierarchical gene set analysis",
+  author   = c(
+    person("Xiaoming", "Wang"),
+    person("Irina", "Dinu"),
+    person("Wei", "Liu"),
+    person("Yutaka", "Yasui")
+  ),
+  journal  = "Statistical Applications in Genetics and Molecular Biology",
+  year     = "2011",
+  volume   = "10",
+  number   = "1",
+  doi      = "10.2202/1544-6115.1618",
+  textVersion = paste(
+    "Wang, X., Dinu, I., Liu, W., & Yasui, Y. (2011).",
+    "Linear combination test for hierarchical gene set analysis.",
+    "Statistical Applications in Genetics and Molecular Biology, 10(1).",
+    "https://doi.org/10.2202/1544-6115.1618"
+  )
+)

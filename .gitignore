@@ -53,6 +53,7 @@ simulation_results/
 
 # Plots and figures
 *.png
+!inst/logo/*.png
 *.jpg
 *.pdf
 *.svg
@@ -61,6 +62,15 @@ simulation_results/
 *.rds
 *.rda
 *.RData
+
+# pkgdown website (auto-generated)
+docs/
+_pkgdown.yml.bak
+
+# Package build artifacts
+src/*.o
+src/*.so
+src/*.dll
 
 # Mac OS
 .DS_Store
